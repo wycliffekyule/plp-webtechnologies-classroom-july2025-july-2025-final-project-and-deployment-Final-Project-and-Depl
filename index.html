@@ -1,0 +1,86 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Portfolio — Home</title>
+  <meta name="description" content="Portfolio and services showcase" />
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-inner">
+      <a href="index.html" class="logo" aria-label="Homepage">MyBrand</a>
+      <button id="navToggle" class="nav-toggle" aria-expanded="false" aria-controls="primaryNav" aria-label="Toggle navigation">
+        <span class="hamburger"></span>
+      </button>
+      <nav id="primaryNav" class="primary-nav" aria-label="Primary">
+        <ul>
+          <li><a href="index.html" class="active">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="services.html">Services</a></li>
+          <li><a href="gallery.html">Gallery</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="container hero-grid">
+        <div class="hero-text">
+          <h1>Designing thoughtful digital experiences</h1>
+          <p>Hi — I'm a multidisciplinary creator. I build websites, craft brands, and solve UX problems.</p>
+          <p class="cta-group">
+            <a class="btn" href="gallery.html">View Work</a>
+            <a class="btn btn-outline" href="contact.html">Contact Me</a>
+          </p>
+        </div>
+        <div class="hero-image" aria-hidden="true">
+          <img src="images/hero.jpg" alt="Sample hero image showing work" />
+        </div>
+      </div>
+    </section>
+
+    <section class="features container">
+      <h2>Featured Services</h2>
+      <div class="cards">
+        <article class="card">
+          <h3>Web Design</h3>
+          <p>Responsive websites, performance-first and accessible.</p>
+        </article>
+        <article class="card">
+          <h3>Brand Strategy</h3>
+          <p>Identity systems and messaging that resonate with customers.</p>
+        </article>
+        <article class="card">
+          <h3>Analytics & Optimization</h3>
+          <p>Data-driven improvements to increase conversion and retain users.</p>
+        </article>
+      </div>
+    </section>
+
+    <section class="teaser container">
+      <h2>Latest Thoughts</h2>
+      <article class="teaser-card">
+        <h3>A short blog post teaser</h3>
+        <p>Small preview: crafting clear microcopy matters — here's why.</p>
+        <p><a href="about.html">Read more →</a></p>
+      </article>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <p>&copy; <span id="year"></span> MyBrand — Built with care.</p>
+      <nav aria-label="Footer social">
+        <a href="#" aria-label="Twitter">Twitter</a> ·
+        <a href="#" aria-label="LinkedIn">LinkedIn</a>
+      </nav>
+    </div>
+  </footer>
+
+  <script src="js/main.js" defer></script>
+</body>
+</html>
